@@ -1,0 +1,21 @@
+[root]
+name = "boot"
+version = "0.1.0"
+dependencies = [
+ "rlibc 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "uefi 0.1.0 (git+https://github.com/zeonin/uefi)",
+]
+
+[[package]]
+name = "rlibc"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "uefi"
+version = "0.1.0"
+source = "git+https://github.com/zeonin/uefi#53612a5886e8983d5f78a3d6d39412b5893430e7"
+
+[metadata]
+"checksum rlibc 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = "fc874b127765f014d792f16763a81245ab80500e2ad921ed4ee9e82481ee08fe"
+"checksum uefi 0.1.0 (git+https://github.com/zeonin/uefi)" = "<none>"

@@ -1,0 +1,23 @@
+{
+    "llvm-target": "x86_64-pc-windows-msvc",
+    "target-endian": "little",
+    "target-pointer-width": "64",
+    "data-layout": "e-m:w-i64:64-f80:128-n8:16:32:64-S128",
+    "arch": "x86_64",
+    
+    "os": "windows",
+    "target-env": "msvc",
+    "target-vendor": "pc",
+
+    "linker": "x86_64-w64-mingw32-gcc",
+
+    "is-like-windows": true,
+
+    "pre-link-args": ["-nostartfiles"],
+
+    "executables": true,
+    "morestack": false,
+    "disable-redzone": true,
+    "no-compiler-rt": true,
+    "position-independent-executables": true
+}
